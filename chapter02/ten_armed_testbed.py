@@ -119,7 +119,7 @@ def figure_2_1():
     plt.violinplot(dataset=np.random.randn(200, 10) + np.random.randn(10))
     plt.xlabel("Action")
     plt.ylabel("Reward distribution")
-    plt.savefig('../images/figure_2_1.png')
+    plt.savefig('.\\testimg\\figure_2_1.png')
     plt.close()
 
 
@@ -144,7 +144,7 @@ def figure_2_2(runs=2000, time=1000):
     plt.ylabel('% optimal action')
     plt.legend()
 
-    plt.savefig('../images/figure_2_2.png')
+    plt.savefig('.\\testimg\\figure_2_2.png')
     plt.close()
 
 
@@ -160,7 +160,7 @@ def figure_2_3(runs=2000, time=1000):
     plt.ylabel('% optimal action')
     plt.legend()
 
-    plt.savefig('../images/figure_2_3.png')
+    plt.savefig('.\\testimg\\figure_2_3.png')
     plt.close()
 
 
@@ -176,7 +176,7 @@ def figure_2_4(runs=2000, time=1000):
     plt.ylabel('Average reward')
     plt.legend()
 
-    plt.savefig('../images/figure_2_4.png')
+    plt.savefig('.\\testimg\\figure_2_4.png')
     plt.close()
 
 
@@ -198,7 +198,7 @@ def figure_2_5(runs=2000, time=1000):
     plt.ylabel('% Optimal action')
     plt.legend()
 
-    plt.savefig('../images/figure_2_5.png')
+    plt.savefig('.\\testimg\\figure_2_5.png')
     plt.close()
 
 
@@ -231,7 +231,7 @@ def figure_2_6(runs=2000, time=1000):
     plt.ylabel('Average reward')
     plt.legend()
 
-    plt.savefig('../images/figure_2_6.png')
+    plt.savefig('.\\testimg\\figure_2_6.png')
     plt.close()
 
 
